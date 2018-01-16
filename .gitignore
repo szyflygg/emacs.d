@@ -2,3 +2,8 @@
 .DS_Store
 .session
 *.el~
+elpa/archives
+auto-save-list
+history
+
+
