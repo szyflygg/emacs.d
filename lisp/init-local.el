@@ -1,9 +1,9 @@
 ;;
 
 ;;加载模版
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+;;(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 
-(load-theme 'zenburn)
+;;(load-theme 'zenburn)
 
 ;;key bind
 (setq mac-command-modifier 'meta) ; make cmd key do Meta

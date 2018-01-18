@@ -29,6 +29,8 @@
 (require 'init-local)
 (require 'init-flycheck)
 (require 'init-sessions)
-
+(require 'init-nyan)
+(require 'init-windows)
+(require 'init-ivy)
 
 (provide 'init)
