@@ -62,4 +62,6 @@
 (require-package 'powerline)
 (powerline-default-theme)
 
+(defalias 'yes-or-no-p 'y-or-n-p)
+
 (provide 'init-local)
