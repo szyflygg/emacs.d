@@ -19,7 +19,11 @@
 
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
+(require 'init-utils)
+(require 'init-editing-utils)
 (require 'init-elpa)
+
+(require 'init-site-lisp)
 
 ;;(require 'init-smex)
 
@@ -32,5 +36,8 @@
 (require 'init-nyan)
 (require 'init-windows)
 (require 'init-ivy)
+(require 'init-company)
+(require 'init-which-key)
+(require 'init-hs)
 
 (provide 'init)
