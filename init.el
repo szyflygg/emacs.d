@@ -30,7 +30,7 @@
 ;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-local" containing personal settings
 ;;----------------------------------------------------------------------------
-(require 'init-local)
+
 (require 'init-flycheck)
 (require 'init-sessions)
 (require 'init-nyan)
@@ -39,5 +39,10 @@
 (require 'init-company)
 (require 'init-which-key)
 (require 'init-hs)
+(require 'init-jedi)
+
+(require 'init-python)
+
+(require 'init-local)
 
 (provide 'init)

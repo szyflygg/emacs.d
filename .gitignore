@@ -51,6 +51,6 @@ site-lisp/package/
 /rake.cache
 /plantuml.jar
 smex-items
-
+.python-environments
 
 

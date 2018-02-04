@@ -31,6 +31,8 @@
 ;;python
 
 (add-hook 'python-mode-hook 'ggtags-mode)
-(add-hook 'python-mode-hook 'auto-complete-mode)
+
+(add-hook 'python-mode-hook 'jedi:setup)
+(setq jedi:complete-on-dot t)
 
 (provide 'init-local)
