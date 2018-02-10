@@ -19,17 +19,18 @@
 
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
-(require 'init-utils)
-(require 'init-editing-utils)
 (require 'init-elpa)
-
+(require 'init-utils)
 (require 'init-site-lisp)
 
 ;;(require 'init-smex)
 
+(require-package 'diminish)
+
 ;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-local" containing personal settings
 ;;----------------------------------------------------------------------------
+
 
 (require 'init-flycheck)
 (require 'init-sessions)
@@ -40,6 +41,8 @@
 (require 'init-which-key)
 (require 'init-hs)
 (require 'init-jedi)
+
+(require 'init-editing-utils)
 
 (require 'init-python)
 

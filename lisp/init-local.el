@@ -35,4 +35,22 @@
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)
 
+
+(setq skeleton-pair t)
+(local-set-key (kbd "[") 'skeleton-pair-insert-maybe)
+(local-set-key (kbd "(") 'skeleton-pair-insert-maybe)
+(local-set-key (kbd "{") 'skeleton-pair-insert-maybe)
+(local-set-key (kbd "<") 'skeleton-pair-insert-maybe)
+
+
+(setq column-number-mode t
+      line-number-mode t
+      gnus-inhibit-startup-message t
+      inhibit-startup-message t
+      initial-frame-alist '((width . 120) (height . 40))
+      mac-command-modifier 'meta
+      py-autopep8-options '("--max-line-length=80")
+      tab-width: 4
+)
+
 (provide 'init-local)
