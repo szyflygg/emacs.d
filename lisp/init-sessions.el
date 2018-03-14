@@ -20,6 +20,7 @@
 ;; For lists specify the len of the maximal saved data also
 (setq desktop-globals-to-save
       (append '((comint-input-ring        . 50)
+                (ivy-history              . 100)
                 (compile-history          . 30)
                 desktop-missing-file-warning
                 (dired-regexp-history     . 20)
@@ -32,7 +33,6 @@
                 (ido-last-directory-list  . 100)
                 (ido-work-directory-list  . 100)
                 (ido-work-file-list       . 100)
-                (ivy-history              . 100)
                 (magit-read-rev-history   . 50)
                 (minibuffer-history       . 50)
                 (org-clock-history        . 50)

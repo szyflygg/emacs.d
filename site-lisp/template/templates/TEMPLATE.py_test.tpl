@@ -2,7 +2,7 @@
 """
 
 """
-
+import mock
 from unittest import TestCase
 from tests.utils import (
     get_random_str,

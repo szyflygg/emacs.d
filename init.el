@@ -33,17 +33,24 @@
 
 
 (require 'init-flycheck)
-(require 'init-sessions)
-(require 'init-nyan)
+;;(require 'init-nyan)
 (require 'init-windows)
 (require 'init-ivy)
 (require 'init-company)
 (require 'init-which-key)
 (require 'init-hs)
-(require 'init-jedi)
+;;(require 'init-jedi)
+(require 'init-sessions)
 
+;;-------
+;; editing
+;;-------
 (require 'init-editing-utils)
 
+
+;;----
+;; coding
+;;----
 (require 'init-python)
 
 (require 'init-local)
