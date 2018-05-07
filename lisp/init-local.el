@@ -1,5 +1,9 @@
 ;;;
 
+;;key
+
+(global-set-key (kbd "C-c C-/") 'comment-or-uncomment-region)
+
 ;;template
 (require 'template)
 
@@ -27,11 +31,6 @@
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 ;;python
-
-(add-hook 'python-mode-hook 'ggtags-mode)
-
-;;(add-hook 'python-mode-hook 'jedi:setup)
-;;(setq jedi:complete-on-dot t)
 
 
 ;; 自动补全符号
@@ -61,7 +60,6 @@
 
 
 ;; 保存后更新ggtags
-
 (add-hook 'after-save-hook 'ggtags-update-tags)
 
 (provide 'init-local)

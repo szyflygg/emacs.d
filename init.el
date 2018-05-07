@@ -23,7 +23,7 @@
 (require 'init-utils)
 (require 'init-site-lisp)
 
-;;(require 'init-smex)
+(require 'init-smex)
 
 (require-package 'diminish)
 
@@ -36,10 +36,10 @@
 ;;(require 'init-nyan)
 (require 'init-windows)
 (require 'init-ivy)
-(require 'init-company)
+;;(require 'init-company)
 (require 'init-which-key)
 (require 'init-hs)
-;;(require 'init-jedi)
+(require 'init-jedi)
 (require 'init-sessions)
 
 ;;-------
