@@ -14,7 +14,7 @@
 
 ;;show
 (tool-bar-mode 0) 
-;;(menu-bar-mode 0) 
+(menu-bar-mode 0) 
 (scroll-bar-mode 0)
 
 (set-default-font "-*-Menlo-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1")
@@ -61,5 +61,9 @@
 
 ;; 保存后更新ggtags
 (add-hook 'after-save-hook 'ggtags-update-tags)
+
+(setq explicit-shell-file-name "/bin/bash")
+
+;;(setq markdown-command "pandoc")
 
 (provide 'init-local)

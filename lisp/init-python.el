@@ -3,7 +3,6 @@
 
 
 (require-package 'pip-requirements)
-(require-package 'pip-requirements)
 
 ;; (setq auto-mode-alist
 ;;       (append '(("SConstruct\\'" . python-mode)

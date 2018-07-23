@@ -286,7 +286,7 @@
 
 
 ;;(require-package 'highlight-escape-sequences)
-(add-hook 'after-init-hook 'hes-mode)
+;;(add-hook 'after-init-hook 'hes-mode)
 
 ;; kill buffers
 (defun kill-other-buffers ()

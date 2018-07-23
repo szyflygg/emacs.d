@@ -48,11 +48,13 @@
 (require 'init-editing-utils)
 
 
+;; local
+(require 'init-local)
+
 ;;----
 ;; coding
 ;;----
 (require 'init-python)
-
-(require 'init-local)
+;;(require 'init-eclim)
 
 (provide 'init)
