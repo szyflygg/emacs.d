@@ -3,6 +3,7 @@
 ;;key
 
 (global-set-key (kbd "C-c C-/") 'comment-or-uncomment-region)
+(global-set-key (kbd "C-x j") 'ggtags-find-tag-dwim)
 
 ;;template
 (require 'template)

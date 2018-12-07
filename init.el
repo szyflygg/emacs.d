@@ -27,6 +27,8 @@
 
 (require-package 'diminish)
 
+(require 'init-org)
+
 ;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-local" containing personal settings
 ;;----------------------------------------------------------------------------

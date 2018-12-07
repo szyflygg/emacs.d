@@ -15,7 +15,7 @@ class Test(TestCase):
     """
 
     def setUp(self):
-	pass
+    	pass
 
     def tearDown(self):
-	pass
+    	pass
